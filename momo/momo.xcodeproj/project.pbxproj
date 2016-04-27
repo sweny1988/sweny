@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3095025C1CD0C0F90070D3DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3095025B1CD0C0F90070D3DD /* main.m */; };
+		3095025F1CD0C0F90070D3DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3095025E1CD0C0F90070D3DD /* AppDelegate.m */; };
+		309502621CD0C0F90070D3DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 309502611CD0C0F90070D3DD /* ViewController.m */; };
+		309502651CD0C0F90070D3DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 309502631CD0C0F90070D3DD /* Main.storyboard */; };
+		309502671CD0C0F90070D3DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 309502661CD0C0F90070D3DD /* Assets.xcassets */; };
+		3095026A1CD0C0F90070D3DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 309502681CD0C0F90070D3DD /* LaunchScreen.storyboard */; };
+		309502751CD0C0F90070D3DD /* momoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 309502741CD0C0F90070D3DD /* momoTests.m */; };
+		309502801CD0C0F90070D3DD /* momoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3095027F1CD0C0F90070D3DD /* momoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		309502711CD0C0F90070D3DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3095024F1CD0C0F80070D3DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 309502561CD0C0F90070D3DD;
+			remoteInfo = momo;
+		};
+		3095027C1CD0C0F90070D3DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3095024F1CD0C0F80070D3DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 309502561CD0C0F90070D3DD;
+			remoteInfo = momo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		309502571CD0C0F90070D3DD /* momo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = momo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3095025B1CD0C0F90070D3DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3095025D1CD0C0F90070D3DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3095025E1CD0C0F90070D3DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		309502601CD0C0F90070D3DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		309502611CD0C0F90070D3DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		309502641CD0C0F90070D3DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		309502661CD0C0F90070D3DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		309502691CD0C0F90070D3DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3095026B1CD0C0F90070D3DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		309502701CD0C0F90070D3DD /* momoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = momoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		309502741CD0C0F90070D3DD /* momoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = momoTests.m; sourceTree = "<group>"; };
+		309502761CD0C0F90070D3DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3095027B1CD0C0F90070D3DD /* momoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = momoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3095027F1CD0C0F90070D3DD /* momoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = momoUITests.m; sourceTree = "<group>"; };
+		309502811CD0C0F90070D3DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		309502541CD0C0F90070D3DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3095026D1CD0C0F90070D3DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309502781CD0C0F90070D3DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3095024E1CD0C0F80070D3DD = {
+			isa = PBXGroup;
+			children = (
+				309502591CD0C0F90070D3DD /* momo */,
+				309502731CD0C0F90070D3DD /* momoTests */,
+				3095027E1CD0C0F90070D3DD /* momoUITests */,
+				309502581CD0C0F90070D3DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		309502581CD0C0F90070D3DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				309502571CD0C0F90070D3DD /* momo.app */,
+				309502701CD0C0F90070D3DD /* momoTests.xctest */,
+				3095027B1CD0C0F90070D3DD /* momoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		309502591CD0C0F90070D3DD /* momo */ = {
+			isa = PBXGroup;
+			children = (
+				3095025D1CD0C0F90070D3DD /* AppDelegate.h */,
+				3095025E1CD0C0F90070D3DD /* AppDelegate.m */,
+				309502601CD0C0F90070D3DD /* ViewController.h */,
+				309502611CD0C0F90070D3DD /* ViewController.m */,
+				309502631CD0C0F90070D3DD /* Main.storyboard */,
+				309502661CD0C0F90070D3DD /* Assets.xcassets */,
+				309502681CD0C0F90070D3DD /* LaunchScreen.storyboard */,
+				3095026B1CD0C0F90070D3DD /* Info.plist */,
+				3095025A1CD0C0F90070D3DD /* Supporting Files */,
+			);
+			path = momo;
+			sourceTree = "<group>";
+		};
+		3095025A1CD0C0F90070D3DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3095025B1CD0C0F90070D3DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		309502731CD0C0F90070D3DD /* momoTests */ = {
+			isa = PBXGroup;
+			children = (
+				309502741CD0C0F90070D3DD /* momoTests.m */,
+				309502761CD0C0F90070D3DD /* Info.plist */,
+			);
+			path = momoTests;
+			sourceTree = "<group>";
+		};
+		3095027E1CD0C0F90070D3DD /* momoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3095027F1CD0C0F90070D3DD /* momoUITests.m */,
+				309502811CD0C0F90070D3DD /* Info.plist */,
+			);
+			path = momoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		309502561CD0C0F90070D3DD /* momo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 309502841CD0C0F90070D3DD /* Build configuration list for PBXNativeTarget "momo" */;
+			buildPhases = (
+				309502531CD0C0F90070D3DD /* Sources */,
+				309502541CD0C0F90070D3DD /* Frameworks */,
+				309502551CD0C0F90070D3DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = momo;
+			productName = momo;
+			productReference = 309502571CD0C0F90070D3DD /* momo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3095026F1CD0C0F90070D3DD /* momoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 309502871CD0C0F90070D3DD /* Build configuration list for PBXNativeTarget "momoTests" */;
+			buildPhases = (
+				3095026C1CD0C0F90070D3DD /* Sources */,
+				3095026D1CD0C0F90070D3DD /* Frameworks */,
+				3095026E1CD0C0F90070D3DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				309502721CD0C0F90070D3DD /* PBXTargetDependency */,
+			);
+			name = momoTests;
+			productName = momoTests;
+			productReference = 309502701CD0C0F90070D3DD /* momoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3095027A1CD0C0F90070D3DD /* momoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3095028A1CD0C0F90070D3DD /* Build configuration list for PBXNativeTarget "momoUITests" */;
+			buildPhases = (
+				309502771CD0C0F90070D3DD /* Sources */,
+				309502781CD0C0F90070D3DD /* Frameworks */,
+				309502791CD0C0F90070D3DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3095027D1CD0C0F90070D3DD /* PBXTargetDependency */,
+			);
+			name = momoUITests;
+			productName = momoUITests;
+			productReference = 3095027B1CD0C0F90070D3DD /* momoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3095024F1CD0C0F80070D3DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = liyu;
+				TargetAttributes = {
+					309502561CD0C0F90070D3DD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3095026F1CD0C0F90070D3DD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 309502561CD0C0F90070D3DD;
+					};
+					3095027A1CD0C0F90070D3DD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 309502561CD0C0F90070D3DD;
+					};
+				};
+			};
+			buildConfigurationList = 309502521CD0C0F80070D3DD /* Build configuration list for PBXProject "momo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3095024E1CD0C0F80070D3DD;
+			productRefGroup = 309502581CD0C0F90070D3DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				309502561CD0C0F90070D3DD /* momo */,
+				3095026F1CD0C0F90070D3DD /* momoTests */,
+				3095027A1CD0C0F90070D3DD /* momoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		309502551CD0C0F90070D3DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3095026A1CD0C0F90070D3DD /* LaunchScreen.storyboard in Resources */,
+				309502671CD0C0F90070D3DD /* Assets.xcassets in Resources */,
+				309502651CD0C0F90070D3DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3095026E1CD0C0F90070D3DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309502791CD0C0F90070D3DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		309502531CD0C0F90070D3DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309502621CD0C0F90070D3DD /* ViewController.m in Sources */,
+				3095025F1CD0C0F90070D3DD /* AppDelegate.m in Sources */,
+				3095025C1CD0C0F90070D3DD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3095026C1CD0C0F90070D3DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309502751CD0C0F90070D3DD /* momoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309502771CD0C0F90070D3DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309502801CD0C0F90070D3DD /* momoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		309502721CD0C0F90070D3DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 309502561CD0C0F90070D3DD /* momo */;
+			targetProxy = 309502711CD0C0F90070D3DD /* PBXContainerItemProxy */;
+		};
+		3095027D1CD0C0F90070D3DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 309502561CD0C0F90070D3DD /* momo */;
+			targetProxy = 3095027C1CD0C0F90070D3DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		309502631CD0C0F90070D3DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				309502641CD0C0F90070D3DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		309502681CD0C0F90070D3DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				309502691CD0C0F90070D3DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		309502821CD0C0F90070D3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		309502831CD0C0F90070D3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		309502851CD0C0F90070D3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = momo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.520it.momo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		309502861CD0C0F90070D3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = momo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.520it.momo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		309502881CD0C0F90070D3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = momoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.520it.momoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/momo.app/momo";
+			};
+			name = Debug;
+		};
+		309502891CD0C0F90070D3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = momoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.520it.momoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/momo.app/momo";
+			};
+			name = Release;
+		};
+		3095028B1CD0C0F90070D3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = momoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.520it.momoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = momo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3095028C1CD0C0F90070D3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = momoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.520it.momoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = momo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		309502521CD0C0F80070D3DD /* Build configuration list for PBXProject "momo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309502821CD0C0F90070D3DD /* Debug */,
+				309502831CD0C0F90070D3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		309502841CD0C0F90070D3DD /* Build configuration list for PBXNativeTarget "momo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309502851CD0C0F90070D3DD /* Debug */,
+				309502861CD0C0F90070D3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		309502871CD0C0F90070D3DD /* Build configuration list for PBXNativeTarget "momoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309502881CD0C0F90070D3DD /* Debug */,
+				309502891CD0C0F90070D3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3095028A1CD0C0F90070D3DD /* Build configuration list for PBXNativeTarget "momoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3095028B1CD0C0F90070D3DD /* Debug */,
+				3095028C1CD0C0F90070D3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3095024F1CD0C0F80070D3DD /* Project object */;
+}
